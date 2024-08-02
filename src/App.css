@@ -6,9 +6,9 @@
 
   font-size: 130px;
  border: 10px solid #66c7ff;;
- padding: 20px;
- margin-right: 2px;
- margin-bottom: 2px;
+ padding: 40px;
+ margin-right: -10px;
+ margin-bottom: -10px;
 }
 
 .board-row{

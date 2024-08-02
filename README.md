@@ -1,6 +1,60 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple implementation of the classic Tic-Tac-Toe game, built using React. The game allows two players to take turns marking a 3x3 grid with "X" and "O". The first player to align three marks horizontally, vertically, or diagonally wins the game.
+
+## Project Structure
+
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The main files and directories are:
+- `public/`: Contains the public assets of the project.
+- `src/`: Contains the source code of the application.
+  - `index.js`: The entry point for the React application.
+  - `App.js`: The main component of the application.
+  - `components/`: Directory for reusable React components (e.g., Board, Square).
+  - `App.css`: The main stylesheet for the application.
+  - `index.css`: Basic styles for the React application.
+- `README.md`: Project documentation.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have Node.js and npm installed on your system. You can download them from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tic-tac-toe.git
+
+2. Navigate to the project directory:
+    cd tic-tac-toe
+
+3. Install the dependencies:
+    npm install
+
+4. Start the development server:
+    npm start
+
+The application will automatically open in your default web browser. If it doesn't, visit http://localhost:3000 to view it.
+
+## Features
+- Interactive Gameplay: Two players can take turns by clicking on the grid squares to  make their move.
+- Winner Detection: The game detects when a player has won by aligning three marks in a row, column, or diagonal.
+- Responsive Design: The application is responsive and works on both desktop and mobile devices.
+
+## How to Play
+1) The game starts with an empty 3x3 grid.
+2) Players take turns to click on an empty square to place their mark ("X" or "O").
+3) The first player to get three marks in a horizontal, vertical, or diagonal line wins the game.
+4) If all nine squares are filled and no player has three in a row, the game is declared a draw.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+If you want to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request with your changes. Contributions are welcome!
 
 ## Available Scripts
 

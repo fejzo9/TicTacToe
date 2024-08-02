@@ -1,1 +1,18 @@
+.square{
+ /* background-color: rgb(46, 224, 40);
+  color: rgb(255, 255, 255);*/
+  background-color: #e6efff;
+  color: #003d66;
 
+  font-size: 130px;
+ border: 10px solid #66c7ff;;
+ padding: 20px;
+ margin-right: 2px;
+ margin-bottom: 2px;
+}
+
+.board-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

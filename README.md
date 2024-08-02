@@ -29,12 +29,15 @@ Before you begin, ensure you have Node.js and npm installed on your system. You 
    git clone https://github.com/your-username/tic-tac-toe.git
 
 2. Navigate to the project directory:
+    ```bash
     cd tic-tac-toe
 
 3. Install the dependencies:
+    ```bash
     npm install
 
 4. Start the development server:
+    ```bash
     npm start
 
 The application will automatically open in your default web browser. If it doesn't, visit http://localhost:3000 to view it.

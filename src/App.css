@@ -3,9 +3,10 @@
   color: rgb(255, 255, 255);*/
   background-color: #e6efff;
   color: #003d66;
-
-  font-size: 130px;
- border: 10px solid #66c7ff;;
+  font-size: 150px;
+ border: 10px solid #66c7ff;
+ width: 300px; 
+ height: 300px; 
  padding: 40px;
  margin-right: -10px;
  margin-bottom: -10px;
